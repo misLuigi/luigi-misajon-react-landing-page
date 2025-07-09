@@ -26,22 +26,17 @@ export const Hero = () => {
         <Paragraph className="mt-8">
           I help driven freelance professionals and small business owners replace chaotic task redundancy with automated systems. Get back your time, reclaim your focus, and build a business that works for you, not the other way around.
         </Paragraph>
-        <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
-          <div className="flex sm:flex-row flex-col gap-5 w-full">
-            <form action="#" className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg 
-                                        shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear 
-                                        focus-within:bg-body focus-within:border-r-primary"
-            >
+        <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0 gap-4 transition-all duration-300 transform hover:scale-105">
               {/* get email or embed a form from GHL */}
-              <span className="min-w-max pr-2 border-r border-box-border">
+              <span className="min-w-max pr-2 border-r border-box-border my-auto text-[#3802E9]">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
-                    fill="none"
+                    fill="#41C6EE"
                     viewBox="0 0 24 24"
                     strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
+                    stroke="#3802E9"
+                    className="w-5 h-5 mr-2"
                   >
                     <path
                       strokeLinecap="round"
@@ -50,19 +45,14 @@ export const Hero = () => {
                     />
                   </svg>
               </span>
-              <input type="email" 
-              placeholder="youremail@gmail.com" 
-              className="w-full py-3 outline-none bg-transparent"/>
               <Button className="min-w-max text-[#DFF5FC] transition-all duration-300 transform hover:scale-105">
-                <span className="relative z-[5]">Newsletter</span>
+                <span className="relative z-[5]">Sign-up To My Newsletter</span>
               </Button>
-            </form>
-          </div>
         </div>
       </div>
 
       <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:max-0 mx-auto max-w-3xl">
-        <img src="public/Temp-img.jpg" 
+        <img src="/Temp-img.jpg" 
         alt="Hero image." 
         width={2350}
         height={2359}
