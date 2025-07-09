@@ -2,26 +2,22 @@ import { Container } from "../shared/Container";
 import logo from "../../assets/icon.svg"
 import { navItems } from "./Navbar";
 import { NavItem } from "../shared/NavItem";
-import { Button } from "../shared/Button";
 
 
 export const Footer = () => {
   return (
   <footer className="relative pt-28 rounded-t-3xl bg-box-bg">
     <Container className="pb-8">
-      <div className="flex justify-between mb-3">
-        <div className="dark:text-[#DFF5FC]">
-          <Button className="text-[#DFF5FC] bg-gradient-to-b from-[#3802E9] to-[#41C6EE] font-semibold transition-all duration-300 transform hover:scale-105 border-none"> Sign-up To My Newsletter </Button>
-        </div>
+      <div className="flex justify-center mb-3">
       <ul className="flex gap-6 text-heading-1">
         {navItems.map((item, key) => (
           <NavItem key={key} href={item.href} text={item.text}/>
         ))}
       </ul>
-
       </div>
+
       <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="flex items-center gap-3 mb-4 md:mb-0">
+        <div className="flex items-center gap-3 mb-4 md:mb-0 transition-all duration-300 transform hover:scale-120">
           <img src={logo} className="w-7 h-7" alt="Luigi logo." />
           <span className="text-lg font-semibold text-heading-1">Luigi</span>
           <span className="text-sm font-light text-heading-1">Website & Automation</span>

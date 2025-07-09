@@ -54,7 +54,7 @@ export const Hero = () => {
               placeholder="youremail@gmail.com" 
               className="w-full py-3 outline-none bg-transparent"/>
               <Button className="min-w-max text-[#DFF5FC] transition-all duration-300 transform hover:scale-105">
-                <span className="relative z-[5]">Get Started</span>
+                <span className="relative z-[5]">Newsletter</span>
               </Button>
             </form>
           </div>
@@ -62,7 +62,7 @@ export const Hero = () => {
       </div>
 
       <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:max-0 mx-auto max-w-3xl">
-        <img src="src/assets/Temp-img.jpg" 
+        <img src="public/Temp-img.jpg" 
         alt="Hero image." 
         width={2350}
         height={2359}
