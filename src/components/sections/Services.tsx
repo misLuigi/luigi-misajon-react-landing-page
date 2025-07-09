@@ -1,7 +1,7 @@
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 import { Title } from "../shared/Title"
-import { Service } from "../cards/service"
+import { Service } from "../cards/Service"
 import { services } from "../../utilities/services-data"
 
 
