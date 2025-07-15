@@ -1,4 +1,5 @@
 import { Button } from "../shared/Button"
+import { ButtonLink } from "../shared/ButtonLink"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 import { Numbers } from "./Numbers"
@@ -26,28 +27,25 @@ export const Hero = () => {
         <Paragraph className="mt-8">
           I help driven freelance professionals and small business owners replace chaotic task redundancy with automated systems. Get back your time, reclaim your focus, and build a business that works for you, not the other way around.
         </Paragraph>
-        <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0 gap-4 transition-all duration-300 transform hover:scale-105">
-              {/* get email or embed a form from GHL */}
+        <div className="mt-10 w-full flex justify-center max-w-md mx-auto lg:mx-0 gap-4">
               <span className="min-w-max pr-2 border-r border-box-border my-auto text-[#3802E9]">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    fill="#41C6EE"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="#3802E9"
-                    className="w-5 h-5 mr-2"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"
-                    />
-                  </svg>
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="#41C6EE" 
+                  stroke="#3802E9" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  className="lucide lucide-calendar-icon lucide-calendar">
+                    <path d="M8 2v4"/><path d="M16 2v4"/>
+                    <rect width="18" height="18" x="3" y="4" rx="2"/>
+                    <path d="M3 10h18"/>
+                </svg>
               </span>
-              <Button className="min-w-max text-[#DFF5FC] transition-all duration-300 transform hover:scale-105">
-                <span className="relative z-[5]">Sign-up To My Newsletter</span>
-              </Button>
+              <ButtonLink text="Book A Free Strategy Call Now" href="https://api.leadconnectorhq.com/widget/booking/QEeSb9cOesZn5Ia2Q89P" className="transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-bl" />
         </div>
       </div>
 

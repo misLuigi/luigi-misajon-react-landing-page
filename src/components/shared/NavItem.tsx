@@ -5,10 +5,10 @@ interface NavItemProps {
 
 export const NavItem = ({ href, text }: NavItemProps) => {
   return (
-    <li>
+    <li className="transition-all duration-100 transform hover:text-[#3802E9]">
       <a
         href={href}
-        className="duration-300 font-medium ease-linear hover:text-primary py-3"
+        className="duration-300 font-medium ease-linear py-3"
       >
         {text}
       </a>

@@ -43,14 +43,14 @@ export const Navbar = () => {
             <div className="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 
                             border-b border-box-border lg:border-0 px-6 lg:px-0"
             >
-              <ButtonLink text="Book Free Strategy Call Now" href="#cta" className="transition-all duration-300 transform" />
+              <ButtonLink text="Book A Free Strategy Call Now" href="https://api.leadconnectorhq.com/widget/booking/QEeSb9cOesZn5Ia2Q89P" className="transition-all duration-300 transform" />
             </div>
           </div>
 
           <div className="min-w-max flex items-center gap-x-3">
               <button
               onClick={toggleTheme}
-              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer transition-all duration-300 transform hover:scale-90"
+              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer transition-all duration-300 transform hover:scale-95"
             >
 
               {theme === "dark" ? (
