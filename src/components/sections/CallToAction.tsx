@@ -1,4 +1,3 @@
-import { Button } from "../shared/Button"
 import { ButtonLink } from "../shared/ButtonLink"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
